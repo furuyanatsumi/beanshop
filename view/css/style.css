@@ -1,0 +1,246 @@
+@charset "UTF-8";
+/*共通部分*/
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Yu Gothic Medium", "游ゴシック Medium", Yugothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+  line-height: 1.7;
+  color: #432;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*header*/
+.logo {
+  width: 50px;
+  margin-top: 14px;
+}
+
+.page_header1 {
+  background-color: #432;
+  padding: 0 20px;
+}
+
+.page_header1 a {
+  color: white;
+}
+
+/*logined_header*/
+.logo {
+  width: 50px;
+  margin-top: 14px;
+}
+
+.page_header2 {
+  background-color: #432;
+  padding: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.page_header2 a {
+  color: white;
+}
+
+.page_header2 .header_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.25rem;
+  margin-top: 40px;
+  list-style: none;
+}
+
+.page_header2 .header_nav li {
+  margin-left: 36px;
+  color: white;
+}
+
+.page_header2 .username {
+  color: white;
+}
+
+/*footer*/
+footer {
+  background-color: #432;
+  text-align: center;
+  padding: 26px 0;
+}
+
+footer p {
+  color: white;
+  font-size: 0.875rem;
+}
+
+/*コンテンツ部分*/
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container nav {
+  width: 15%;
+}
+
+.container nav h3 {
+  text-align: center;
+}
+
+.container main {
+  border-left: #432 dotted 2px;
+  border-right: #432 dotted 2px;
+  width: 65%;
+}
+
+.container main h3 {
+  text-align: center;
+}
+
+.container main .main_items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container main .bean {
+  -ms-flex-preferred-size: 200px;
+      flex-basis: 200px;
+  width: 250px;
+  margin: 10px;
+  padding: 5px;
+  border: #432 dashed 1px;
+}
+
+.container main .bean .bean img {
+  width: 200px;
+  height: 200px;
+}
+
+.container aside {
+  width: 20%;
+}
+
+.container aside h3 {
+  text-align: center;
+}
+
+/*商品詳細*/
+.products {
+  margin-left: 15%;
+  margin-right: 25%;
+}
+
+.products .bean_info img {
+  width: 300px;
+  height: 400px;
+}
+
+.products .bean_info .info {
+  margin-left: 100px;
+  font-size: large;
+}
+
+/*カート*/
+.cart {
+  border-top: #432 dotted 1px;
+  border-bottom: #432 dotted 1px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.cart table {
+  width: 100%;
+}
+
+.cart table img {
+  width: 300px;
+  height: 400px;
+}
+
+.cart table .info {
+  font-size: large;
+}
+
+.cart table .info .amountform {
+  width: 50px;
+}
+
+/*ランキング*/
+.ranking {
+  -ms-flex-preferred-size: 200px;
+      flex-basis: 200px;
+  width: 250px;
+  margin: 20px auto;
+  padding: 5px;
+  border: #432 dashed 1px;
+}
+
+.ranking .bean img {
+  width: 200px;
+  height: 250px;
+}
+
+/*ログイン・サインアップ*/
+.login_container {
+  text-align: center;
+}
+
+.login_container .login {
+  text-align: center;
+}
+
+/*商品管理*/
+.infomation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 25px;
+  padding-bottom: 35px;
+  border-bottom: #432 dotted 3px;
+}
+
+.comment {
+  width: 300px;
+  height: 50px;
+  overflow-wrap: break-word;
+}
+
+.item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.item td {
+  border: #432 dotted 1px;
+  padding: 10px 4px;
+}
+
+.item td img {
+  width: 300px;
+  height: 400px;
+}
+/*# sourceMappingURL=style.css.map */
